@@ -1,16 +1,42 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F0F0F0;
 }
-.boton-jugada {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#resultados {
-  font-size: 20px;
-  margin: 20px 0;
+h1 {
+    color: #333;
+}
+.opciones {
+    margin: 20px 0;
+}
+.boton-opcion {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton-opcion:hover {
+    background-color: #45A049;
+}
+.resultados {
+    margin-top: 20px;
+}
+#resultado, #contador {
+    font-size: 18px;
+    color: #333;
 }
